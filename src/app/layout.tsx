@@ -1,7 +1,8 @@
 import { ReactNode } from 'react';
-import './globals.css';  // Import global styles here
+import './globals.css'; // Import global styles here
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Sidebar from './components/Sidebar'; // Import the Sidebar component
 
 // Metadata for SEO purposes
 export const metadata = {
@@ -19,11 +20,14 @@ const RootLayout: React.FC<LayoutProps> = ({ children }) => {
     <html lang="en">
       <body>
         <div className="app-container">
-          <Header />
-          <main role="main" className="main-content">
-            {children}
-          </main>
-          <Footer />
+          <div className="content-wrapper">
+            <Sidebar /> {/* Add Sidebar */}
+            <main role="main" className="main-content">
+              <Header />
+              {children}
+              <Footer />
+            </main>
+          </div>
         </div>
       </body>
     </html>
