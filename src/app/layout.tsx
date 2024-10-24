@@ -21,7 +21,7 @@ const RootLayout: React.FC<LayoutProps> = ({ children }) => {
       <body>
         <div className="app-container">
           <div className="content-wrapper">
-            <Sidebar /> {/* Add Sidebar */}
+            <Sidebar /> 
             <main role="main" className="main-content">
               <Header />
               {children}
