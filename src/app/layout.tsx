@@ -1,15 +1,11 @@
+// src/app/layout.tsx
+"use client";
 import { ReactNode } from 'react';
-import './globals.css'; // Import global styles here
+import './globals.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Sidebar from './components/Sidebar'; // Import the Sidebar component
-
-// Metadata for SEO purposes
-export const metadata = {
-  title: 'My Portfolio - Full-Stack Developer',
-  description: 'A showcase of my projects, skills, and contact details as a full-stack developer',
-  keywords: ['Portfolio', 'Full Stack Developer', 'Web Developer'],
-};
+import LeftSidebar from './components/LeftSidebar'; // Left Sidebar
+import RightSidebar from './components/RightSidebar'; // Right Sidebar
 
 interface LayoutProps {
   children: ReactNode;
@@ -18,16 +14,18 @@ interface LayoutProps {
 const RootLayout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body>
-        <div className="app-container">
-          <div className="content-wrapper">
-            <Sidebar /> 
-            <main role="main" className="main-content">
-              <Header />
+      <body className="bg-gray-50 text-gray-800">
+        <div className="relative min-h-screen flex flex-col">
+          <Header />
+          <div className="flex flex-grow container mx-auto lg:px-0"> {/* Remove default padding */}
+            {/* Sidebar will be hidden on small screens */}
+            <LeftSidebar className="hidden lg:block lg:w-1/4" />
+            <main className="flex-grow px-4 py-8 mx-[220px]"> {/* Add 220px margin to left and right */}
               {children}
-              <Footer />
             </main>
+            <RightSidebar className="hidden lg:block lg:w-1/4" />
           </div>
+          <Footer />
         </div>
       </body>
     </html>
