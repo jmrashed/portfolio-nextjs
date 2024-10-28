@@ -7,6 +7,7 @@ const LeftSidebar: React.FC = () => {
         { name: "Overview", href: "#overview" },
         { name: "Experience", href: "#experience" },
         { name: "Skills", href: "#skills" },
+        { name: "Educations", href: "#educations" },
         { name: "Certifications", href: "#certifications" },
         { name: "Testimonials", href: "#testimonials" },
         { name: "Portfolio", href: "#portfolio" },

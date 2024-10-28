@@ -5,10 +5,10 @@ import { FaPhp, FaNodeJs, FaPython, FaDatabase, FaLink } from 'react-icons/fa';
 const CVPage: React.FC = () => {
     return (
         <div className="flex">
-            <main className="flex-1 max-w-7xl mx-auto p-4">
+            <main className="flex-1  mx-auto">
                 <h1 className="text-3xl font-bold mb-4">Curriculum Vitae</h1>
 
-                <section className="mb-8">
+                <section className="mb-8" id='overview'>
                     <h2 className="text-2xl font-semibold mb-2">Professional Summary</h2>
                     <p>
                         Results-driven Tech Lead with 7+ years of experience in full-stack development, team leadership, and project management.
@@ -18,7 +18,7 @@ const CVPage: React.FC = () => {
                     </p>
                 </section>
 
-                <section className="mb-8">
+                <section id="skills" className="mb-8">
                     <h2 className="text-2xl font-semibold mb-2">Skills</h2>
                     <ul className="list-disc ml-6 space-y-2">
                         <li>
@@ -53,7 +53,8 @@ const CVPage: React.FC = () => {
                     </ul>
                 </section>
 
-                <section className="mb-8">
+
+                <section className="mb-8" id="experience">
                     <h2 className="text-2xl font-semibold mb-2">Experience</h2>
 
                     {/* Experience Details */}
@@ -132,11 +133,188 @@ const CVPage: React.FC = () => {
                     />
                 </section>
 
-                <section className="mb-8">
+                <section className="mb-8" id="educations">
                     <h2 className="text-2xl font-semibold mb-2">Education</h2>
                     <h3 className="text-xl font-semibold">Bachelor of Science</h3>
                     <p className="text-gray-600">Stamford University Bangladesh, Dhaka, BD | 04/2012 - 04/2016</p>
                     <p>Major in Computer Science & Engineering - CGPA 3.73</p>
+
+
+                    <h3 className="text-xl font-semibold mt-4">HSC</h3>
+                    <p className="text-gray-600">Govt. K.C Collage, Jhenaidah | 2014 - 04/201
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                    </p>
+                    <p>Science Section</p>
                 </section>
 
                 <section className="mb-8">
