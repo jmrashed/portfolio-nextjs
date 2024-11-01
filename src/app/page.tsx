@@ -4,7 +4,7 @@ import { FaPhp, FaNodeJs, FaPython, FaDatabase, FaLink } from 'react-icons/fa';
  
 const CVPage: React.FC = () => {
     return (
-        <div className="flex">
+        <div className="flex antialiased">
             <main className="flex-1  mx-auto">
                 <h1 className="text-3xl font-bold mb-4">Curriculum Vitae</h1>
 

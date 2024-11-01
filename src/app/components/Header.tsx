@@ -4,9 +4,9 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-md py-4 px-6 w-full flex items-center justify-center">
+    <header className="bg-white shadow-md py-4 px-6 w-full flex gap-8 items-center justify-center fixed top-0">
       <div className="text-2xl font-semibold text-gray-800">
-        OnestTech
+        Md Rasheduzzaman
       </div>
       <nav className="hidden md:flex space-x-6">
         <a href="/" className="text-gray-700 hover:text-blue-500">

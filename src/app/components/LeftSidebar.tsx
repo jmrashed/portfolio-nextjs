@@ -16,14 +16,14 @@ const LeftSidebar: React.FC = () => {
     ];
 
     return (
-        <aside className="w-full md:w-64 bg-gray-900 text-white p-4 fixed left-0 top-0 h-full flex flex-col">
+        <aside className="w-full  bg-gray-900 text-white p-4 full-height-screen flex flex-col ">
             <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
             <nav className="overflow-y-auto flex-grow space-y-3">
                 {links.map((link, index) => (
                     <a
                         key={index}
                         href={link.href}
-                        className="block hover:text-blue-300 text-sm md:text-base"
+                        className="block hover:text-blue-300 text-sm md:text-base antialiased"
                     >
                         {link.name}
                     </a>

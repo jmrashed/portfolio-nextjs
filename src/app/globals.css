@@ -46,3 +46,9 @@ a {
   text-decoration: none;
   transition: color 0.2s;
 }
+
+
+.full-height-screen{
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+}
