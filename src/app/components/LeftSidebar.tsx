@@ -30,19 +30,10 @@ const LeftSidebar: React.FC = () => {
                 ))}
             </nav>
             <div className="mt-6 border-t pt-4">
-                <h3 className="text-lg font-semibold">About Us</h3>
+                <h3 className="text-lg font-semibold">About Me</h3>
                 <p className="text-sm">
-                    Learn more about our journey, mission, and values at{" "}
-                    <a href="https://onesttech.com/about" className="hover:text-blue-300">
-                        OnestTech
-                    </a>.
-                </p>
-                <p className="text-sm">
-                    Need assistance? Contact our team directly through our{" "}
-                    <a href="#contact" className="hover:text-blue-300">
-                        Contact page
-                    </a>.
-                </p>
+                Tech lead at Onest Tech LLC, specializing in PHP, Node.js, Python, and JavaScript. With 8 years of experience in software development.
+                </p> 
             </div>
         </aside>
     );
