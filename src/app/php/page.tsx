@@ -10,7 +10,7 @@ const PhpPage: React.FC = () => {
       {/* Years of Experience */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Experience: 10 Years in PHP Development</h2>
-        <p className="text-lg">
+        <p className="">
           I have been working with PHP for the last 10 years, starting in 2014. Over the past decade, I have developed various web applications, improved my skills in backend and frontend development, and extensively used frameworks like Laravel, CakePHP, and CodeIgniter.
         </p>
       </section>
@@ -18,10 +18,10 @@ const PhpPage: React.FC = () => {
       {/* Why I Learned PHP */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Why I Learned PHP</h2>
-        <p className="text-lg">
+        <p className="">
           I started learning PHP because it was the most widely used server-side language for web development at the time. Its flexibility, ease of learning, and the vast ecosystem of frameworks and libraries made it a great choice for building scalable web applications.
         </p>
-        <p className="text-lg">
+        <p className="">
           PHP continues to be an excellent option for developers today because of its robust community support and ease of integration with various databases. It remains a solid choice for full-stack development, especially when working on tight deadlines.
         </p>
       </section>
@@ -29,7 +29,7 @@ const PhpPage: React.FC = () => {
       {/* Top 10 Laravel Projects */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">My Top 10 PHP Projects Using Laravel</h2>
-        <ul className="list-disc list-inside text-lg">
+        <ul className="list-disc list-inside ">
           <li>E-commerce Platform for Fashion Retailers (2022)</li>
           <li>Custom CRM System for Small Businesses (2021)</li>
           <li>Online Learning Management System (2020)</li>
@@ -50,10 +50,10 @@ const PhpPage: React.FC = () => {
         {/* Laravel */}
         <div className="mb-6">
           <h3 className="text-xl font-semibold">Laravel</h3>
-          <p className="text-lg">
+          <p className="">
             Laravel is my go-to framework for modern PHP development. Its expressive syntax, built-in authentication, and MVC architecture make it an excellent choice for large-scale applications.
           </p>
-          <p className="text-lg font-medium mt-2">Top 3 Projects using Laravel:</p>
+          <p className=" font-medium mt-2">Top 3 Projects using Laravel:</p>
           <ul className="list-disc list-inside">
             <li>Online Store for Custom Apparel (2022)</li>
             <li>Enterprise HR Management Tool (2020)</li>
@@ -64,10 +64,10 @@ const PhpPage: React.FC = () => {
         {/* CodeIgniter */}
         <div className="mb-6">
           <h3 className="text-xl font-semibold">CodeIgniter</h3>
-          <p className="text-lg">
+          <p className="">
             CodeIgniter is lightweight and fast. It's perfect for applications that require speed and efficiency without the overhead of more complex frameworks.
           </p>
-          <p className="text-lg font-medium mt-2">Top 3 Projects using CodeIgniter:</p>
+          <p className=" font-medium mt-2">Top 3 Projects using CodeIgniter:</p>
           <ul className="list-disc list-inside">
             <li>Job Portal for Freelancers (2018)</li>
             <li>Student Information System (2017)</li>
@@ -78,10 +78,10 @@ const PhpPage: React.FC = () => {
         {/* CakePHP */}
         <div>
           <h3 className="text-xl font-semibold">CakePHP</h3>
-          <p className="text-lg">
+          <p className="">
             CakePHP is great for rapid application development with convention over configuration. Its strong ORM and bake tool make it ideal for CRUD operations.
           </p>
-          <p className="text-lg font-medium mt-2">Top 3 Projects using CakePHP:</p>
+          <p className=" font-medium mt-2">Top 3 Projects using CakePHP:</p>
           <ul className="list-disc list-inside">
             <li>NGO Fund Management System (2016)</li>
             <li>Online Donation Platform (2017)</li>
@@ -97,7 +97,7 @@ const PhpPage: React.FC = () => {
         {/* Advantages */}
         <div className="mb-4">
           <h3 className="text-xl font-semibold">Advantages</h3>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside ">
             <li>Wide range of hosting options.</li>
             <li>Vast number of libraries and frameworks.</li>
             <li>Great for beginners due to simplicity.</li>
@@ -109,7 +109,7 @@ const PhpPage: React.FC = () => {
         {/* Disadvantages */}
         <div>
           <h3 className="text-xl font-semibold">Disadvantages</h3>
-          <ul className="list-disc list-inside text-lg">
+          <ul className="list-disc list-inside ">
             <li>Can be slower compared to newer technologies like Node.js or Python for certain tasks.</li>
             <li>Older versions of PHP had poor security practices, leading to a bad reputation.</li>
             <li>Not as modern or developer-friendly as some emerging server-side languages.</li>
@@ -121,7 +121,7 @@ const PhpPage: React.FC = () => {
       {/* Statistics Section */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">PHP Usage Statistics</h2>
-        <div className="text-lg">
+        <div className="">
           <p><strong>Years of Experience:</strong> 10 years</p>
           <p><strong>Total Projects:</strong> 50+ completed PHP projects</p>
           <p><strong>Frameworks Used:</strong> Laravel, CakePHP, CodeIgniter</p>
